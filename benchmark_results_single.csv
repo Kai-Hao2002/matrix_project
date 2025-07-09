@@ -1,0 +1,21 @@
+n,method,time_sec,gflops
+256,GEMM Single Core,0.0114382,2.93354
+256,Strassen-2 Single Core,0.0112849,2.97339
+256,Strassen-2x2 Single Core,0.0123062,2.72663
+256,Multifactor-3x2x2 Single Core,0.0123758,2.71129
+256,GEMM OpenBLAS Single Core,0.0020587,16.2988
+512,GEMM Single Core,0.0956396,2.80674
+512,Strassen-2 Single Core,0.0853587,3.14479
+512,Strassen-2x2 Single Core,0.0820595,3.27123
+512,Multifactor-3x2x2 Single Core,0.0825697,3.25102
+512,GEMM OpenBLAS Single Core,0.0031979,83.9412
+1024,GEMM Single Core,0.912895,2.35239
+1024,Strassen-2 Single Core,0.59603,3.60298
+1024,Strassen-2x2 Single Core,0.589374,3.64367
+1024,Multifactor-3x2x2 Single Core,0.582903,3.68412
+1024,GEMM OpenBLAS Single Core,0.0185933,115.498
+2048,GEMM Single Core,21.4151,0.80223
+2048,Strassen-2 Single Core,4.11681,4.1731
+2048,Strassen-2x2 Single Core,4.06497,4.22632
+2048,Multifactor-3x2x2 Single Core,4.05772,4.23387
+2048,GEMM OpenBLAS Single Core,0.110786,155.072

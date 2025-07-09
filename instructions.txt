@@ -1,0 +1,4 @@
+cmake ..
+ninja
+$env:OPENBLAS_NUM_THREADS=16
+.\matrix_multiply.exe
